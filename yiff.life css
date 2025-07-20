@@ -151,4 +151,30 @@
     contain: initial;
     flex-grow: 0;
 }
+.account__header {
+    background-color: #bfbfbf;
+}
+.modal-root__overlay,
+.account__header > div {
+    background: url(none);
+}
+.account__header .account__header__content {
+    color: #000;
+}
+.account__header__tabs__name h1 {
+    font-size: 17px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.account__header__extra__links a {
+    color: #0000a8;
+    font-weight: 500;
+}
+.account__header__bio .account__header__fields dd {
+    color: #000;
+}
 }
