@@ -177,4 +177,21 @@
 .account__header__bio .account__header__fields dd {
     color: #000;
 }
+.column-link i {
+    font-size: 16px;
+    width: fit-content;
+}
+.icon-with-badge__badge {
+    position: absolute;
+    inset-inline-start: 122px;
+    top: 3px;
+    background: #00007f;
+    border: 2px solid #404040;
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #fff;
+}
 }
